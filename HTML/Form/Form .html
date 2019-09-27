@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Form Olusturma </title>
+
+</head>
+<body>
+
+     <form action="/Home/Register">
+	 
+	      <p>
+		    Ad: <input type="text" name="ad" placeholder="Adinizi Giriniz" required>
+		  </p>
+	 
+	      <p>
+		    Soyad: <input type="text" name="soyad" placeholder="Soyadinizi Giriniz" required>
+		  </p>
+
+		  <p>
+				Mail: <input type="email" name="email" placeholder="E-Mailinizi Giriniz" required>
+		  </p>
+		  
+		  <p>
+		    Beni Hatirla <input type="checkbox" name="benihatirla" >
+		  </p>
+		  
+		  <p>
+		    Erkek <input type="radio" name="cinsiyet" required>
+		    Kadin <input type="radio" name="cinsiyet" required>
+		  </p>
+
+		  <p>
+			Sinema <input type="checkbox"name="hobi" >
+		    Spor <input type="checkbox"name="hobi" >
+		    Kitap Okumak <input type="checkbox"name="hobi" >
+		  </p>
+		  <p>
+				<select multiple name="sehirler" required>
+						<option>Kocaeli</option>
+						<option>Istanbul</option>
+						<option>Ankara</option>
+				</select>
+		   </p>
+		   <p>
+
+			    <select name="sehirler" required>
+				  <option>Kocaeli</option>
+				  <option>Istanbul</option>
+				  <option>Ankara</option>
+			    </select>
+		  </p>
+
+		  <input type="submit" value="Kaydet">
+		  <input type="reset">
+	 </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

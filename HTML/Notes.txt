@@ -1,0 +1,58 @@
+Alan adý = Domain
+
+Web Hosting = SÝTE BARINDIRMA
+HÝZMETÝ, Hizmetin verildiði 
+firmadaki pc kiralamak vs.
+SERVER denir.
+
+HTML EDÝTÖR: dw, notepad
+
+Yayýnlama ÝÇÝN;
+-Web Sitesi
+-Alan Adý (DOMAÝN)
+-Web Hosting Hizmeti (7/24).
+
+-----------------------------
+<meta name="title" content="First App">
+     Bu Etiket Sayfamýzý Arama 
+    motorunda daha hýzlý aranmasýný
+           SAÐLAR.
+             
+
+<b> = <strong> = Kalýn Yazý
+<i> = <em> = italik
+<u> = <ins> = Altý çizili
+<sup> = küçültüp üzerine yazar
+<sub> = küçültüp altýna yazar
+<del> = ortasýndan düz bir çizgi çizer
+<small> = puntoyu küçültür
+<mark> = arkaplan rengi ekler (metine)
+
+<h1>
+<h2>
+<h3>        Baþlýk Etiketleri
+<h4>
+<h5>
+
+
+-------------------------------------
+
+<tr> = SATIR
+<td> = Satýrlarý klonlayarak böler
+
+<colspan> = saða doðru tablo birleþtirir
+<rolspan> = aþaðýya doðru tablo birleþtirir
+
+inherit = style de kullanýlýr
+          önceki etiketin özelliklerini 
+          miras alýr.
+
+
+
+border-radius: 10px;
+verilen deðer dairelik özelliði ile
+doðru orantýlýdýr.
+          
+
+
+

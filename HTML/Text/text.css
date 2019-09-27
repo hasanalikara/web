@@ -1,0 +1,52 @@
+#main-footer{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+}
+
+#main{
+    width: 70%;
+    padding: 5px;
+    background-color: beige;
+    margin: 3px;
+    overflow: inherit;
+}
+
+#main-form{
+    background-color: green;
+    width: 70%;
+    margin: 3px;
+    padding: 5px;
+}
+
+.one-text{
+    padding:5px;
+}
+
+#posts{
+    width: 25%;
+    height: 400px;
+    padding: 5px;
+    background-color: beige;
+    margin: 3px;
+
+}
+
+div{
+    float: left;
+}
+
+p{
+    text-indent: 10px;
+}
+
+.liste{
+    font-size: 25px;
+    color:green;
+}
+
+li{
+    font-size: 20px;
+    color:black;
+}

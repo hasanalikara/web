@@ -1,0 +1,30 @@
+/*
+*{
+    font-size: 10px;
+}
+
+
+p {
+    border: 1px solid red;
+}
+
+div,p{
+    border: 1px solid blue;
+}
+
+div.container,p{
+    border: 1px solid orange;
+}
+
+div>p{
+    border: 1px solid red;
+}
+
+p~div{
+    border: 2px solid red;
+}
+*/
+p+div{
+    border: 1px solid brown;
+}
+

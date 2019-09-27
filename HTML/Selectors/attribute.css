@@ -1,0 +1,25 @@
+p[title]{
+    border: 1px solid
+    green;
+    padding: 5px;
+    text-align: center;
+}
+
+p[title="second"]{
+    background-color:
+    red;
+}
+
+p[title="third"]{
+    background-color:
+    blue;
+}
+
+p[title="forth"]{
+    background-color:
+    yellow;
+}
+
+a[href^="http"]{
+    color:aqua;
+}

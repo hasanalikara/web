@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Form Olusturma </title>
+
+</head>
+<body>
+
+     <form action="/Home/Register">
+	 <p><h3>  Hesap Bilgileriniz</h3></p>
+	      <p>
+		    Kullanici Adi: <input type="text" name="kul_ad" placeholder="Kullanici Adinizi Giriniz" required>
+		  </p>
+	 
+	      <p>
+		    Password: <input type="password" name="psw" placeholder="Password Giriniz" required>
+		  </p>
+
+		  <p>
+			E-Mail: <input type="email" name="email" placeholder="E-Mailinizi Giriniz" required>
+		  </p>
+		  
+		  <hr>
+          <p><h3>  Kisisel Bilgileriniz</h3></p>
+
+              <p>
+                Adiniz: <input type="text" name="ad" placeholder="Adinizi Giriniz" required>
+              </p>
+         
+              <p>
+                Soyadiniz: <input type="text" name="soyad" placeholder="Soyadinizi Giriniz" required>
+              </p>
+		  <p>
+              Cinsiyet: <br>
+		    Erkek <input type="radio" name="cinsiyet" required>
+		    Kadin <input type="radio" name="cinsiyet" required>
+		  </p>
+
+		  <p>
+              Hobileriniz: <br>
+			Sinema <input type="checkbox"name="hobi" >
+		    Spor <input type="checkbox"name="hobi" >
+		    Kitap Okumak <input type="checkbox"name="hobi" >
+		  </p>
+<p>
+            Dogum Tarihiniz (Gun Ay Yil):<br>
+            <input type="date" name="bday" max="1979-12-31"><br>
+</p>
+		  <input type="submit" value="Kaydet">
+		  <input type="reset">
+	 </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

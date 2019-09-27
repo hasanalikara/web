@@ -1,0 +1,52 @@
+#container{
+    border: 5px solid brown;
+    overflow: auto;
+}
+
+.blog-post-container{
+    text-align: center;
+    border: 2px solid blue;
+    width: 55%;
+    margin: 3px;
+    height: auto;
+    float: left;
+}
+
+.blog-post{
+    text-align: center;
+    border: 2px solid blue;
+    width: auto;
+    margin: 3px;
+    height: 100px;
+}
+
+.others-tags{
+    text-align: center;
+    border: 2px solid green;
+    width: 43%;
+    margin: 3px;
+    height: auto;
+    float: left;
+}
+
+#others{
+    text-align: center;
+    border: 2px solid green;
+    width: auto;
+    margin: 3px;
+    height: 155px;
+}
+
+#tags{
+    text-align: center;
+    border: 2px solid green;
+    width: auto;
+    margin: 3px;
+    height: 151px;
+}
+
+p{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
