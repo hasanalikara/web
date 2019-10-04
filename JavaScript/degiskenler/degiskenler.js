@@ -95,7 +95,7 @@ var yil = ['2015','2012','2016'];
 
 console.log(marka[0] + ' ' + model[0] + ' ' + yil[0]);
 */
-
+/*
 var ali = {
     ad: 'Ali',
     soyad: 'Yılmaz',
@@ -158,5 +158,8 @@ personel.forEach(function(personel){
         console.log(dil);
     });
 });
+
+*/
+
 
 
