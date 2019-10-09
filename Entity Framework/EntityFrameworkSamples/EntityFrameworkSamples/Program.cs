@@ -11,12 +11,14 @@ namespace EntityFrameworkSamples
         static void Main(string[] args)
         {
 
-            Kategori k = new Kategori();
-            k.KategoriAdi = "Telefon";
+            Urun k = new Urun();
+            k.UrunAdi = "Samsung S6";
+            k.Fiyat = 2500;
+            k.StokAdedi = 250;
 
             UrunContext db = new UrunContext();
 
-            db.Kategoriler.Add(k);
+            db.Urunler.Add(k);
             db.SaveChanges();
 
             Console.WriteLine("Veri kayıt edildi");
