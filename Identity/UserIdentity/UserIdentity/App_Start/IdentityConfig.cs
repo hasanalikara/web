@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Microsoft.AspNet.Identity;
 using Microsoft.Owin;
+using Microsoft.Owin.Security.Cookies;
 using Owin;
 
-[assembly: OwinStartup(typeof(UserIdentity.App_Start.IdentityConfig))]
+[assembly: OwinStartup(typeof(UserIdentity.IdentityConfig))]
 
 namespace UserIdentity.App_Start
 {
@@ -11,9 +13,12 @@ namespace UserIdentity.App_Start
     {
         public void Configuration(IAppBuilder app)
         {
-            // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=316888
-
-            //app.UseCookieAuthentication
+            app.UseCookieAuthentication(new cookieauthenticationoptions
+            {
+                AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
+                LoginPath=new PathString("/Account/Login")
+            });
         }
     }
+
 }
