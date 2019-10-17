@@ -1,0 +1,49 @@
+﻿@using abc.Entity;
+@model IEnumerable<Product>
+@{
+    ViewBag.Title = "List";
+}
+
+<div class="row">
+    @foreach (var list in Model)
+    {
+        <div class="card-deck col-md-4">
+            <div class="card mb-3">
+
+                @switch (list.CategoryId)
+                {
+                    case 1:
+                        <img src="~/theme/img/photo-camera.jpg" class="card-img-top" />
+                        break;
+
+                    case 2:
+                        <img src="~/theme/img/bilgisayar.png" class="card-img-top" />
+                        break;
+
+                    case 3:
+                        <img src="~/theme/img/elektronik.jpg" class="card-img-top" />
+                        break;
+
+                    case 4:
+                        <img src="~/theme/img/telefon.jpg" class="card-img-top" />
+                        break;
+
+                    case 5:
+                        <img src="~/theme/img/beyaz eşya.jpg" class="card-img-top" />
+                        break;
+                }
+
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <a href="~/Home/Details/@list.Id"> @list.Name</a>
+                    </h5>
+                    <p class="card-text">@list.Description</p>
+                </div>
+                <div class="card-footer">
+                    <small class="">@list.Price TL</small>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
