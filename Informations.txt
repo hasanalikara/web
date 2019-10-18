@@ -14,3 +14,13 @@ POST : Create
 PUT : Update
 DELETE : Delete
 
+
+
+-----------------------------
+
+SÝTE YAYINLAMA HAKKINDA:
+
+-Birden fazla dosya aktarýrken -ZÝP- 
+yaparak atmamýz gerek.
+
+-Publish (DÝNAMÝK)

@@ -1,0 +1,6 @@
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+    /*flex-wrap: nowrap;*/
+    /*flex-wrap: wrap-reverse;*/
+    /*flex-wrap: wrap;*/
